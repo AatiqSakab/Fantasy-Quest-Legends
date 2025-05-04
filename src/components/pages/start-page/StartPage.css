@@ -1,0 +1,69 @@
+/* Background */
+.start-page {
+    height: 100vh;
+    background: url('./assets/start-bg.jpg') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Main container */
+  .start-container {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 90px;
+    border: #d90429 solid 2px;
+    border-radius: 15px;
+    text-align: center;
+    color: #f7f7f7;
+    box-shadow: 0 0 15px #000;
+    max-width: 400px;
+    width: 90%;
+    
+  }
+  
+  /* Title */
+  .start-container h1 {
+    font-size: 2rem;
+    margin-bottom: 25px;
+  }
+  
+  /* Name input */
+  .name-input {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  /* Class selection */
+  .class-selection {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+  }
+  
+  .class-selection label {
+    cursor: pointer;
+    font-size: 1.1rem;
+  }
+  
+  /* Start Button */
+  .start-button {
+    background-color: #ef233c;
+    color: white;
+    padding: 12px 30px;        
+    font-size: 1.2rem;         
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    min-width: 160px;          
+    transition: background 0.3s;
+    white-space: nowrap;       
+  }
+  
+  .start-button:hover {
+    background-color: #d90429;
+  }
+  

@@ -1,0 +1,63 @@
+.game-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 15px 30px;
+    background-color: #2b2d42;
+    color: #edf2f4;
+  }
+  
+  .game-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .game-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: auto;
+  }
+  
+  .game-links li a {
+    color: #edf2f4;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  button {
+    background-color: #ef233c;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #d90429;
+  }
+  
+  .game-links li a:hover {
+    color: #8d99ae;
+  }
+
+  @media (max-width: 1200px) {
+    .game-navbar {
+      justify-content: space-between; /* logo and links to sides */
+    }
+  
+    .game-logo {
+      position: static; /* move logo to left */
+      transform: none;
+    }
+  
+    .game-links {
+      margin-left: 0;
+    }
+
+  }

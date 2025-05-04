@@ -1,0 +1,66 @@
+.home-banner {
+    background: url('/images/game-background.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .home-banner h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .home-banner p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .play-button {
+    background-color: #ef233c;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .play-button:hover {
+    background-color: #d90429;
+  }
+  
+  .home-section {
+    padding: 60px 20px;
+    background-color: rgb(247, 247, 247, 0.3);
+    color: #333;
+    text-align: center;
+  }
+
+  .home-section:hover{
+    background-color: rgb(247, 247, 247, 0.8);
+  }
+  
+  .home-section:nth-child(even) {
+    background-color: rgba(226, 232, 240, 0.3); /* slight alternate background */
+  }
+
+  .home-section:nth-child(even):hover{
+    background-color: rgba(226, 232, 240, 0.8);
+  }
+  
+  .home-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  .home-section ul {
+    list-style-type: disc;
+    padding-left: 40px;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .home-section li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+  }
